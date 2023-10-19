@@ -17,3 +17,32 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set01\problem12_session.txt
+PS C:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05> gcc -g "c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set01\problem12.c" -o "c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set01\problem12.exe" 2>&1
+
+PS C:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05> c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set01\problem12.exe
+c:\Users\RA : The term 'c:\Users\RA' is not recognized as the name of a cmdlet, function, script file, or operable 
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1 ...
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\RA:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+c:\Users\RA : The term 'c:\Users\RA' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or
+if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1 ...
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (c:\Users\RA:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05> git add .
+
+PS C:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05> git commit -m "committed 10/19/2023, 4:31:40 PM"
+
+PS C:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05> git push
+
+PS C:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231019163148
+**********************
