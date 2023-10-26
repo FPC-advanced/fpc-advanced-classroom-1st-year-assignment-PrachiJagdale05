@@ -6,3 +6,6 @@ void input(float *base, float *height) {
     printf("Enter the height of the triangle: ");
     scanf("%f", height);
 }
+void find_area(float base , float height, float *area){
+    
+}
