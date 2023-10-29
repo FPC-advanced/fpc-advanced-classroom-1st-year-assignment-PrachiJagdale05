@@ -135,7 +135,7 @@ olleh
 
 ---
 
-07. Write a program to find the area of a triangle.
+07.Write a program to find the area of a triangle. 
 
 ***Function Declarations***
 ```c
