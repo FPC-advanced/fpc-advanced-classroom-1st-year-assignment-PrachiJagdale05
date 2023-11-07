@@ -3,5 +3,7 @@
 int input_number(){
     int n;
     printf("enter the number:");
-    
+    scanf("%d",&n);
+    return n;
 }
+int is_prime(int n)
