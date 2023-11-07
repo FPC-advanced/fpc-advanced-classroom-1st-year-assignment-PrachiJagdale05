@@ -7,5 +7,5 @@ int input_number(){
     return n;
 }
 int is_prime(int n){
-    
+    i
 }
