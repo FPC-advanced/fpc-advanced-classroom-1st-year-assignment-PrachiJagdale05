@@ -6,4 +6,6 @@ int input_number(){
     scanf("%d",&n);
     return n;
 }
-int is_prime(int n)
+int is_prime(int n){
+    
+}
