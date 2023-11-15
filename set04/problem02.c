@@ -19,13 +19,10 @@ Fraction input_fraction() {
 }
 Fraction find_smallest(Fraction frac1, Fraction frac2, Fraction frac3) {
     int common_den = frac1.den * frac2.den * frac3.den;
-
     frac1.num *= common_den / frac1.den;
     frac1.den = common_den;
-
     frac2.num *= common_den / frac2.den;
     frac2.den = common_den;
-
     frac3.num *= common_den / frac3.den;
     frac3.den = common_den;
 
