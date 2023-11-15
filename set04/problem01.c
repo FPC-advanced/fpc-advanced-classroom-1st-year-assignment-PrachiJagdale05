@@ -1,11 +1,5 @@
 //Write a program to find sum of two fractions
 #include <stdio.h>
-
-);
-
-
-
-// Function to input two fractions
 void input(int *num1, int *den1, int *num2, int *den2) {
     printf("Enter the first fraction (numerator/denominator): ");
     scanf("%d/%d", num1, den1);
@@ -14,12 +8,8 @@ void input(int *num1, int *den1, int *num2, int *den2) {
     scanf("%d/%d", num2, den2);
 }
 
-// Function to add two fractions
 void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den) {
-    // Find a common denominator
     *res_den = den1 * den2;
-
-    // Add the numerators with the common denominator
     *res_num = (num1 * den2) + (num2 * den1);
 }
 
