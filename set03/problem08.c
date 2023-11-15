@@ -13,7 +13,7 @@ typedef struct polygon {
 } pl;
 
 int input_n() {
-    printf("Please enter the number of sides: ");
+    printf("Enter the number of sides of the polygon:");
     int n;
     scanf("%d", &n);
     return n;
