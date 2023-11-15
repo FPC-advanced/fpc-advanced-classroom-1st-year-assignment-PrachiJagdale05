@@ -6,22 +6,7 @@ typedef struct {
 } Fraction;
 
 
-int main() {
-    Fraction frac1, frac2, frac3, smallest;
 
-    
-    frac1 = input_fraction();
-    frac2 = input_fraction();
-    frac3 = input_fraction();
-
-    // Find the smallest fraction
-    smallest = find_smallest(frac1, frac2, frac3);
-
-    // Output the result
-    output(smallest);
-
-    return 0;
-}
 
 // Function to input a fraction
 Fraction input_fraction() {
@@ -61,4 +46,14 @@ Fraction find_smallest(Fraction frac1, Fraction frac2, Fraction frac3) {
 // Function to output the result
 void output(Fraction smallest) {
     printf("The smallest fraction is %d/%d\n", smallest.num, smallest.den);
+}
+int main() {
+    Fraction frac1, frac2, frac3, smallest;
+    frac1 = input_fraction();
+    frac2 = input_fraction();
+    frac3 = input_fraction();
+    smallest = find_smallest(frac1, frac2, frac3);
+    output(smallest);
+
+    return 0;
 }
