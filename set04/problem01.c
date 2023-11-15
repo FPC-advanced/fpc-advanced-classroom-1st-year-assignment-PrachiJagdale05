@@ -13,21 +13,13 @@ void add(int num1, int den1, int num2, int den2, int *res_num, int *res_den) {
     *res_num = (num1 * den2) + (num2 * den1);
 }
 
-// Function to output the result
 void output(int num1, int den1, int num2, int den2, int res_num, int res_den) {
     printf("Sum of %d/%d and %d/%d is %d/%d\n", num1, den1, num2, den2, res_num, res_den);
 }
 int main() {
     int num1, den1, num2, den2, res_num, res_den;
-
-    // Input two fractions
     input(&num1, &den1, &num2, &den2);
-
-    // Add the fractions
     add(num1, den1, num2, den2, &res_num, &res_den);
-
-    // Output the result
     output(num1, den1, num2, den2, res_num, res_den);
-
     return 0;
 }
