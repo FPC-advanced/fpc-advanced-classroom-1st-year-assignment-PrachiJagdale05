@@ -1,4 +1,5 @@
 //Write a program to find all the prime numbers between 2 to n ccc
+#include<stdio.h>
 int input_array_size() {
     int n;
     printf("Enter the value of n: ");
