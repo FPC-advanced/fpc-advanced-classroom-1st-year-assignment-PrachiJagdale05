@@ -1,0 +1,20 @@
+Compilation started at 11/15/2023, 11:07:39 PM
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c: In function 'input_array_size':
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:4:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    4 |     printf("Enter the value of n: ");
+      |     ^~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:4:5: warning: incompatible implicit declaration of built-in function 'printf'
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:1:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+  +++ |+#include <stdio.h>
+    1 | //Write a program to find all the prime numbers between 2 to n ccc
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:5:5: warning: implicit declaration of function 'scanf' [-Wimplicit-function-declaration]
+    5 |     scanf("%d", &n);
+      |     ^~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:5:5: warning: incompatible implicit declaration of built-in function 'scanf'
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:5:5: note: include '<stdio.h>' or provide a declaration of 'scanf'
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c: In function 'output':
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:23:5: warning: incompatible implicit declaration of built-in function 'printf'
+   23 |     printf("Prime numbers between 2 and %d are:\n", n - 1);
+      |     ^~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set03\problem05.c:23:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+Compilation finished at 11/15/2023, 11:07:40 PM
