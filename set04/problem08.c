@@ -1,3 +1,4 @@
+//Write a program to add n fractions
 #include <stdio.h>
 typedef struct fraction
 {
