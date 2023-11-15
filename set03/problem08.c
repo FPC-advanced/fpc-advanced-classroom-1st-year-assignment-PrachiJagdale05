@@ -21,7 +21,7 @@ int input_n() {
 
 pt input_point() {
     pt p;
-    printf("Please enter the points (x y): ");
+    printf("Enter the coordinates of point(x,y):");
     scanf("%f %f", &p.x, &p.y);
     return p;
 }
