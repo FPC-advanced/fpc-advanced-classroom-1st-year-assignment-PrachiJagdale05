@@ -1,0 +1,54 @@
+Undefined set logging command: "enabled on".  Try "help set logging".
+Already logging to problem08_debug.log.
++set trace-commands on
++l
+53	    f1=add_fractions(f1,f[i]);
+54	}
+55	  return f1;
+56	}
+57	
+58	void output(fr f1){
+59	    printf("%i/%i",f1.num,f1.den);
+60	}
+61	int main()
+62	{
++b 6 
+Breakpoint 1 at 0x401416: file c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c, line 6.
++b 12
+Breakpoint 2 at 0x401435: file c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c, line 12.
++b main
+Breakpoint 3 at 0x4015f5: file c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c, line 62.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401416 in input_n 
+                                           at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:6
+2       breakpoint     keep y   0x00401435 in input_n 
+                                           at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:12
+3       breakpoint     keep y   0x004015f5 in main 
+                                           at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:62
++disable 3
++b 19
+Breakpoint 4 at 0x40146b: file c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c, line 19.
++info b
+Num     Type           Disp Enb Address    What
+1       breakpoint     keep y   0x00401416 in input_n 
+                                           at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:6
+2       breakpoint     keep y   0x00401435 in input_n 
+                                           at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:12
+3       breakpoint     keep n   0x004015f5 in main 
+                                           at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:62
+4       breakpoint     keep y   0x0040146b in input_fraction 
+                                           at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:19
++r
+Starting program: c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04/./problem08.exe 
+[New Thread 7668.0xcdc]
+[New Thread 7668.0x2970]
+
+Breakpoint 1, input_n () at c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem08.c:9
+9	    printf("pls enter the num of fractions: ");
++quit
+A debugging session is active.
+
+	Inferior 1 [process 7668] will be killed.
+
+Quit anyway? (y or n) error return ../../gdb-7.6.1/gdb/windows-nat.c:1275 was 5

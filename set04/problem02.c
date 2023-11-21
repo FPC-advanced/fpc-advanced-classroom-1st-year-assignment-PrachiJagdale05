@@ -1,14 +1,9 @@
 //Write a program to find the smallest of three fractions
 #include <stdio.h>
-
 typedef struct {
     int num, den;
 } Fraction;
 
-
-
-
-// Function to input a fraction
 Fraction input_fraction() {
     Fraction frac;
     printf("Enter the numerator: ");
