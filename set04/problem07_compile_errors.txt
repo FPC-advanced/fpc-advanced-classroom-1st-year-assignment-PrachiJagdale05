@@ -142,3 +142,39 @@ c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-ass
    14 |     output(fraction1, fraction2, result);
       |     ^~~~~~
 Compilation finished at 11/28/2023, 9:48:47 AM
+Compilation started at 11/28/2023, 9:49:17 AM
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c: In function 'main':
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:10:17: warning: implicit declaration of function 'input_fraction' [-Wimplicit-function-declaration]
+   10 |     fraction1 = input_fraction();
+      |                 ^~~~~~~~~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:10:17: error: incompatible types when assigning to type 'Fraction' {aka 'struct <anonymous>'} from type 'int'
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:12:17: error: incompatible types when assigning to type 'Fraction' {aka 'struct <anonymous>'} from type 'int'
+   12 |     fraction2 = input_fraction();
+      |                 ^~~~~~~~~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:13:14: warning: implicit declaration of function 'add_fractions' [-Wimplicit-function-declaration]
+   13 |     result = add_fractions(fraction1, fraction2);
+      |              ^~~~~~~~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:13:14: error: incompatible types when assigning to type 'Fraction' {aka 'struct <anonymous>'} from type 'int'
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:14:5: warning: implicit declaration of function 'output' [-Wimplicit-function-declaration]
+   14 |     output(fraction1, fraction2, result);
+      |     ^~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c: At top level:
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:18:10: error: conflicting types for 'input_fraction'
+   18 | Fraction input_fraction() {
+      |          ^~~~~~~~~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:10:17: note: previous implicit declaration of 'input_fraction' was here
+   10 |     fraction1 = input_fraction();
+      |                 ^~~~~~~~~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:33:10: error: conflicting types for 'add_fractions'
+   33 | Fraction add_fractions(Fraction f1, Fraction f2) {
+      |          ^~~~~~~~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:13:14: note: previous implicit declaration of 'add_fractions' was here
+   13 |     result = add_fractions(fraction1, fraction2);
+      |              ^~~~~~~~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:43:6: warning: conflicting types for 'output'
+   43 | void output(Fraction f1, Fraction f2, Fraction sum) {
+      |      ^~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:14:5: note: previous implicit declaration of 'output' was here
+   14 |     output(fraction1, fraction2, result);
+      |     ^~~~~~
+Compilation finished at 11/28/2023, 9:49:17 AM
