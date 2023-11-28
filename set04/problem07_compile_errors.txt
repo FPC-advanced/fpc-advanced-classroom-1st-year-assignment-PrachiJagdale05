@@ -178,3 +178,19 @@ c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-ass
    14 |     output(fraction1, fraction2, result);
       |     ^~~~~~
 Compilation finished at 11/28/2023, 9:49:17 AM
+Compilation started at 11/28/2023, 9:54:04 AM
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c: In function 'main':
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:24:5: error: too few arguments to function 'output'
+   24 |     output(fraction1, fraction2, result);
+      |     ^~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:11:6: note: declared here
+   11 | void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum);
+      |      ^~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c: At top level:
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:57:6: error: conflicting types for 'output'
+   57 | void output(Fraction f1, Fraction f2, Fraction sum) {
+      |      ^~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set04\problem07.c:11:6: note: previous declaration of 'output' was here
+   11 | void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum);
+      |      ^~~~~~
+Compilation finished at 11/28/2023, 9:54:05 AM
