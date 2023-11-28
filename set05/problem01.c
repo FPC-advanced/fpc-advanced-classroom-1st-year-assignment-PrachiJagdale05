@@ -16,17 +16,10 @@ void output(Point a, Point b, float res);
 int main() {
     Point point1, point2;
     float distance;
-
-    printf("Enter coordinates for Point 1:\n");
     point1 = input();
-
-    printf("Enter coordinates for Point 2:\n");
     point2 = input();
-
     dist(point1, point2, &distance);
-
     output(point1, point2, distance);
-
     return 0;
 }
 
