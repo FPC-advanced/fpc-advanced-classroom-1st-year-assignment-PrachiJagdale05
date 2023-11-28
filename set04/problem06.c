@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
+#define MAX_LENGTH 100
 
 void input_string(char *a);
 int count_words(char *string);
