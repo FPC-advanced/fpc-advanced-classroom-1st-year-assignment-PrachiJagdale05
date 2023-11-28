@@ -1,17 +1,28 @@
 //Write a program to add two fractions
-#include<stdio.h>
+#include <stdio.h>
+
 typedef struct {
     int num, den;
 } Fraction;
 
+Fraction input_fraction();
+int find_gcd(int a, int b);
+Fraction add_fractions(Fraction f1, Fraction f2);
+void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum);
+
 int main() {
     Fraction fraction1, fraction2, result;
+
     printf("Enter Fraction 1:\n");
     fraction1 = input_fraction();
+
     printf("Enter Fraction 2:\n");
     fraction2 = input_fraction();
+
     result = add_fractions(fraction1, fraction2);
+
     output(fraction1, fraction2, result);
+
     return 0;
 }
 
@@ -34,13 +45,16 @@ Fraction add_fractions(Fraction f1, Fraction f2) {
     Fraction result;
     result.num = f1.num * f2.den + f2.num * f1.den;
     result.den = f1.den * f2.den;
+
+    // Simplify the result by dividing numerator and denominator by their GCD
     int gcd = find_gcd(result.num, result.den);
     result.num /= gcd;
     result.den /= gcd;
+
     return result;
 }
 
-int output(Fraction f1, Fraction f2, Fraction sum) {
+void output(Fraction f1, Fraction f2, Fraction sum) {
     printf("\nResult of adding fractions %d/%d and %d/%d is: %d/%d\n",
            f1.num, f1.den, f2.num, f2.den, sum.num, sum.den);
 }
