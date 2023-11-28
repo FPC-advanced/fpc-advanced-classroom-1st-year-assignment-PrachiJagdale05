@@ -55,7 +55,7 @@ Fraction add_fractions(Fraction f1, Fraction f2) {
     return result;
 }
 
-void output(Fraction f1, Fraction f2, Fraction sum) {
+void  output(Fraction f1, Fraction f2, Fraction sum) {
     printf("\nResult of adding fractions %d/%d and %d/%d is: %d/%d\n",
            f1.num, f1.den, f2.num, f2.den, sum.num, sum.den);
 }
