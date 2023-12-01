@@ -1,0 +1,10 @@
+Compilation started at 11/28/2023, 10:50:46 AM
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set05\problem07.c: In function 'is_vowel':
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set05\problem07.c:22:15: warning: implicit declaration of function 'tolower' [-Wimplicit-function-declaration]
+   22 |     c = (char)tolower(c);
+      |               ^~~~~~~
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set05\problem07.c: In function 'has_nice_name':
+c:\Users\RA ELE\OneDrive\Desktop\Prachi Code\fpc-advanced-classroom-1st-year-assignment-PrachiJagdale05\set05\problem07.c:31:20: warning: implicit declaration of function 'isalpha' [-Wimplicit-function-declaration]
+   31 |         } else if (isalpha(c[i])) {
+      |                    ^~~~~~~
+Compilation finished at 11/28/2023, 10:50:47 AM

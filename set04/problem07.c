@@ -8,22 +8,15 @@ typedef struct {
 Fraction input_fraction();
 int find_gcd(int a, int b);
 Fraction add_fractions(Fraction f1, Fraction f2);
-void output(Fraction f1, Fraction f2, Fraction f3, Fraction sum);
+void output(Fraction f1, Fraction f2, Fraction sum);
 
 
 int main() {
     Fraction fraction1, fraction2, result;
-
-    printf("Enter Fraction 1:\n");
     fraction1 = input_fraction();
-
-    printf("Enter Fraction 2:\n");
     fraction2 = input_fraction();
-
     result = add_fractions(fraction1, fraction2);
-
     output(fraction1, fraction2, result);
-
     return 0;
 }
 

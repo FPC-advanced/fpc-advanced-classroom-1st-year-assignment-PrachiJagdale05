@@ -37,7 +37,6 @@ float find_weight(Camel c) {
 }
 
 void output(Camel c) {
-    printf("\nCamel Details:\n");
     printf("Stomach Radius: %.2f\n", c.radius);
     printf("Height: %.2f\n", c.height);
     printf("Length: %.2f\n", c.length);
