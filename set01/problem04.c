@@ -13,7 +13,8 @@ void add(int a, int b, int*sum){
 void output(int a,int b, int sum){
     printf("the sum of %d and %d is %d\n",a,b,sum);
 }
-int main(){
+int main()
+{
     int num1,num2,result;
     input(&num1,&num2);
     add(num1,num2,&result);
