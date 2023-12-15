@@ -1,38 +1,30 @@
 // Write a C program to find sum of all natural numbers until _n_
 #include <stdio.h>
-int input_array_size() {
+int input_n();
+int sum_n_nos(int n);
+void output(int n, int sum);
+
+
+int input_n() {
     int n;
-    printf("Enter the number of elements: ");
+    printf("Enter a positive integer n: ");
     scanf("%d", &n);
     return n;
 }
-void input_array(int n, int a[n]) {
-    printf("Enter %d different numbers:\n", n);
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
-    }
+
+int sum_n_nos(int n) {
+    return (n * (n + 1)) / 2;
 }
-int sum_n_array(int n, int a[n]) {
-    int sum = 0;
-    for (int i = 0; i < n; i++) {
-        sum += a[i];
-    }
-    return sum;
-}
-void output(int n, int a[n], int sum) {
-    printf("The entered array is: ");
-    for (int i = 0; i < n; i++) {
-        printf("%d ", a[i]);
-    }
-    printf("\nSum of the array elements: %d\n", sum);
+
+void output(int n, int sum) {
+    printf("Sum of natural numbers up to %d is: %d\n", n, sum);
 }
 int main() {
     int n, sum;
-    n = input_array_size();
-    int a[n];
-    input_array(n, a);
-    sum = sum_n_array(n, a);
-    output(n, a, sum);
+    n = input_n();
+    sum = sum_n_nos(n);
+
+    output(n, sum);
 
     return 0;
 }
